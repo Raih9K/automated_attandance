@@ -16,7 +16,7 @@ try:
     driver.find_element(
         By.XPATH, "//input[@name='remarks']").send_keys("")
     driver.find_element(By.XPATH, "//button[@class='btn btn-success']").click()
-    time.sleep(10)
+    time.sleep(2)
     driver.save_screenshot('./screenshots/enter.png')
     print("Print : Captured Screenshot")
     print("Success: Script executed without errors.")
