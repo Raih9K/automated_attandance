@@ -11,7 +11,7 @@ def driver():
     yield driver
     driver.quit()
 def logindata(driver, username, password):
-    driver.find_element(By.XPATH, "//input[@name='mobile']").send_keys("01961930718")
+    driver.find_element(By.XPATH, "//input[@name='mobile']").send_keys("01961930719")
     driver.find_element(By.XPATH, "//input[@name='password']").send_keys("1")
 # The test case
 def test_enter_and_capture_screenshot(driver):
