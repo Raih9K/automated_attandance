@@ -22,5 +22,4 @@ try:
     print("Success: Script executed without errors.")
 except Exception as e:
     print("Failed")
-
 driver.quit()
