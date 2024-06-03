@@ -20,6 +20,7 @@ try:
     driver.save_screenshot('./screenshots/break_start.png')
     print("Print : Captured Screenshot")
     print("Success: Script executed without errors.")
+    
 except Exception as e:
     print("Failed")
 driver.quit()
