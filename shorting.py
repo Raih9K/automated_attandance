@@ -11,5 +11,4 @@ def bubble_sort(arr):
 
 arr = [1, 2, 5, 7, 9, 0, 8, 8]
 bubble_sort(arr)
-ss
 print("sorted array", arr)
