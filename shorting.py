@@ -8,7 +8,6 @@ def bubble_sort(arr):
             # Swap if the element found is greater than the next element
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-
 arr = [1, 2, 5, 7, 9, 0, 8, 8]
 bubble_sort(arr)
 print("sorted array", arr)
