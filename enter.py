@@ -5,7 +5,6 @@ import time
 driver = webdriver.Chrome()
 driver.get("https://office.easyhrm.online/index.php")
 driver.maximize_window()
-
 try:
     driver.find_element(
         By.XPATH, "//input[@name='mobile']").send_keys("01961930719")
