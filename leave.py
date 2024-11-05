@@ -1,14 +1,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-
+url = "https://office.easyhrm.online/index.php"
 driver = webdriver.Chrome()
-driver.get("https://office.easyhrm.online/index.php")
+driver.get(url)
 driver.maximize_window()
 
 try:
     driver.find_element(
-        By.XPATH, "//input[@name='mobile']").send_keys("01961930719")
+        By.XPATH, "//input[@name='mobile']").send_keys("")
     driver.find_element(
         By.XPATH, "//input[@name='password']").send_keys("1")
     driver.find_element(
