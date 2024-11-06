@@ -13,6 +13,7 @@ try:
         By.XPATH, "//input[@name='password']").send_keys("1")
     driver.find_element(
         By.XPATH, "//div[1]/form/div[3]/select/option[3]").click()
+    
     driver.find_element(
         By.XPATH, "//input[@name='remarks']").send_keys("")
     driver.find_element(By.XPATH, "//button[@class='btn btn-success']").click()
