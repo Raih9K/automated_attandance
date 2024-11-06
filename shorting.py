@@ -11,4 +11,3 @@
 # arr = [1, 2, 5, 7, 9, 0, 8, 8]
 # bubble_sort(arr)
 # print("sorted array", arr)
-all are comment 
